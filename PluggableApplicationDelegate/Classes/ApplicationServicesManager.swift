@@ -6,6 +6,7 @@
 //  Copyright © 2017 Fernando Martín Ortiz. All rights reserved.
 //
 
+#if canImport(UIKit) && canImport(CloudKit)
 import UIKit
 import CloudKit
 
@@ -450,3 +451,5 @@ open class PluggableApplicationDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 }
+
+#endif
