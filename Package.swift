@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "PluggableApplicationDelegate",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v15)
     ],
     products: [
         .library(

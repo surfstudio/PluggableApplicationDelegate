@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PluggableApplicationDelegate'
-  s.version          = '0.3.0'
+  s.version          = '0.3.2'
   s.summary          = 'Services oriented AppDelegate in Swift 3.'
   s.description      = <<-DESC
 PluggableApplicationDelegate is a way of decoupling AppDelegate, by splitting it into small modules called ApplicationService.
@@ -23,7 +23,7 @@ PluggableApplicationDelegate is an open class from which your AppDelegate needs 
   s.source           = { :git => 'https://github.com/fmo91/PluggableApplicationDelegate.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'PluggableApplicationDelegate/Classes/**/*'
   
